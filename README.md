@@ -2,6 +2,9 @@
 
 Projetos feitos por mim durante meus estudos de Análise e Desenvolvimento de Sistemas na Cruzeiro do Sul.
 
+## 📝 Modelagem de Dados
+Foi ensinado a programar em SQL utilizando MySQL Workbench e Criar MER com o MySQL Workbench.
+
 ## 📝 Técnicas de Programação
 
 Foi ensinado a Baixar e Configurar:
