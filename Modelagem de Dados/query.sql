@@ -1,0 +1,25 @@
+CREATE TABLE Aluno (
+    RGM INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    NomeAluno VARCHAR(255) NOT NULL,
+    DataNascimento DATE,
+    Genero ENUM('F', 'M'),
+    NomePai VARCHAR(255) NOT NULL,
+    NomeMae VARCHAR(255) NOT NULL
+);
+
+CREATE TABLE Classe (
+    IdClasse INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    AnoLetivo INT NOT NULL,
+    Serie INT NOT NULL,
+    Turma VARCHAR(4) NOT NULL,
+    Periodo VARCHAR(10)
+);
+
+CREATE TABLE Matricula (
+    IdMatricula INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    RGM INT NOT NULL,
+    IdClasse INT NOT NULL,
+    DataMatricula DATE,
+    FOREIGN KEY (RGM) REFERENCES Aluno(RGM),
+    FOREIGN KEY (IdClasse) REFERENCES Classe(IdClasse)
+);
