@@ -10,6 +10,11 @@ Foi feito um Projeto para converter um Numero Decimal para Binario.
 ## 📝 Modelagem de Dados
 Foi ensinado a programar em SQL utilizando MySQL Workbench e Criar MER com o MySQL Workbench.
 
+## 📝 Projeto Integrado de Gestão de Projetos e de Dados
+Foi ensinado a utilizar [Oracle SQL](https://livesql.oracle.com/apex/f?p=590:1000). 
+
+Foi feito um Projeto de criar 3 Tabelas de acordo com a imagem no Template.docx.
+
 ## 📝 Técnicas de Programação
 
 Foi ensinado a Baixar e Configurar:
