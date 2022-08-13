@@ -2,6 +2,11 @@
 
 Projetos feitos por mim durante meus estudos de Análise e Desenvolvimento de Sistemas na Cruzeiro do Sul.
 
+## 📝 Aplicações para Internet
+Foi ensinado a programar em HTML, CSS e CMS no geral.
+
+Foi feito um Projeto(Projeto do Forum 2) focado em HTML5 e CSS Semantico, fazendo um site de noticia baseado em um template.
+
 ## 📝 Programação de Computadores e Algoritmos
 Foi ensinado a programar em [Scratch](https://scratch.mit.edu/).
 
