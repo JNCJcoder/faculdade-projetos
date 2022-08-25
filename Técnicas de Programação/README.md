@@ -9,3 +9,7 @@ Foi ensinado sobre aplicações stand-alone e componentes visuais em Java, sendo
 # 📝 Aula 3
 
 Foi ensinado sobre Eventos(Ciclo de Eventos) em Java utilizando Botões e o mouse.
+
+# 📝 Aula 3 (JLABEL)
+
+Foi ensinado a utilizar jlabel em Java, utilizando 2 botões para trocar a imagem exibida pelo jlabel.
