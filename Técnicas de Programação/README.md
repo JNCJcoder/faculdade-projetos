@@ -13,3 +13,8 @@ Foi ensinado sobre Eventos(Ciclo de Eventos) em Java utilizando Botões e o mous
 # 📝 Aula 3 (JLABEL)
 
 Foi ensinado a utilizar jlabel em Java, utilizando 2 botões para trocar a imagem exibida pelo jlabel.
+
+# 📝 Aula 4
+
+Foi ensinado sobre JDBC, HeidiSQL, Uniform Server, um pouco de SQL e como criar uma CRUD em Java utilizando o Driver JDBC MySQL, JButtons, JTextFields, JTextAreas e JLabels. 
+
