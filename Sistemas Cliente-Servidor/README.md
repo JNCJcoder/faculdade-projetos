@@ -13,3 +13,6 @@ Foi ensinado a criar um projeto fullstack MVC simples de consulta de alunos usan
 # 📝 Aula 5
 
 Foi ensinado a baixar, instalar e configurar o Framework Java Spring e Spring MVC Forms, criar um controller e uma rota para uma pagina JSP.
+
+# 📝 Aula 6
+Foi ensinado a baixar, instalar e configurar o Hibernate.
