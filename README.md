@@ -36,3 +36,7 @@ Foi feito Projetos basicos em JAVA com GUI utilizando:
 - textfields
 - textbox
 - driver JDBC do MySql
+
+## 📝 Sistemas Cliente-Servidor
+
+Foi ensinado a criar Paginas JSP utilitizando bibliotecas JSTL como FMT, SQL e CORE, utilizar Servlet, Frameworks Java Spring e Spring MVC Forms, criar projetos MVC e utilizar Hibernate.
