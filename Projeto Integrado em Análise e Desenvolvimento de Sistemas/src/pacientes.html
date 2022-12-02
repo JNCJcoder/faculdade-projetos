@@ -1,0 +1,47 @@
+{% extends "layout.html"  %}
+
+{% block title %}		
+    <title>Pacientes</title>
+{% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/pacientes.css">
+{% endblock styles %}
+
+{% block header %}
+    <header>
+        <h1><a href="index.html" class='fas fa-angle-left' style='font-size:34px; margin-left:10px'></a></h1>
+        <h2 style='margin-right: 20px; margin-top: 5px;'>Pacientes</h2>
+    </header>
+{% endblock header %}
+
+{% block content %}
+    <h1 style="text-align: center; margin-bottom: 10px;">Pacientes</h1>
+    <label for="busca">Buscar Paciente:</label>
+    <input type="search" name="busca" id="busca" value="Alice Silva">
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Nome Completo</th>
+                <th>CPF</th>
+                <th>Contato</th>
+                <th>Data de nascimento</th>
+                <th>Atualizar</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice Silva</td>
+                <td>123.456.789-10</td>
+                <td>(22) 91234-5678</td>
+                <td>01/01/1995</td>
+                <td class="refresh">↻</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock content %}
+
+{% block scripts %}
+
+{% endblock scripts %}

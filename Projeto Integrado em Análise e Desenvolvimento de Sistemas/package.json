@@ -1,0 +1,14 @@
+{
+  "name": "sistema-de-consulta-clinica-estetica",
+  "version": "1.0.0",
+  "description": "Prototipo de um sistema de consultas de uma clinica de estetica.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "JNCJcoder",
+  "license": "MIT",
+  "dependencies": {
+    "nunjucks": "^3.2.3"
+  }
+}

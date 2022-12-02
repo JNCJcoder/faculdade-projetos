@@ -1,0 +1,23 @@
+.formulario
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.formulario input, .formulario select
+{
+    margin-bottom: 5px;
+    padding: 4px;
+    max-width: 80%;
+    border: 3px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--secondary-color);
+}
+
+.formulario input[type=submit]
+{
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}

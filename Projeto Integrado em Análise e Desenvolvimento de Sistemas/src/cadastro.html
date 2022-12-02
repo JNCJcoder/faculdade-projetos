@@ -1,0 +1,38 @@
+{% extends "layout.html"  %}
+
+{% block title %}		
+    <title>Cadastro</title>
+{% endblock title %}
+
+{% block styles %}		
+    <link rel="stylesheet" href="css/form.css">
+{% endblock styles %}
+
+{% block header %}
+    <header>
+        <h1><a href="index.html" class='fas fa-angle-left' style='font-size:34px; margin-left:10px'></a></h1>
+        <h2 style='margin-right: 20px; margin-top: 5px;'>Cadastro de Paciente</h2>
+    </header>
+{% endblock header %}
+
+{% block content %}
+    <h1 style="text-align: center;">Cadastro</h1>
+    <div style="display: flex; flex-direction: row;">
+        <form class="formulario" action="">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" class="input" value="Alice Silva">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" class="input"  pattern="(\d{3}\.?\d{3}\.?\d{3}-?\d{2})|(\d{2}\.?\d{3}\.?\d{3}/?\d{4}-?\d{2})" value="123.456.789-10">
+            <label for="contato">Contato:</label>
+            <input type="text" id="contato" class="input" value="(22) 91234-5678">
+            <label for="datadenascimento">Data de nascimento:</label>
+            <input type="date" id="datadenascimento" class="input" value="1995-01-01">
+            <input type="submit" value="Cadastrar Paciente" class="input">
+        </form>
+        <img src="assets/logo-cadastro.jpg" alt="logo-cadastro" style="width: 50%; height: 450px;">
+    </div>
+{% endblock content %}
+
+{% block scripts %}
+
+{% endblock scripts %}

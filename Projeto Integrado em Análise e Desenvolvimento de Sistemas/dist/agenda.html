@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				
+    <title>Agenda</title>
+
+			<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">	
+			<link rel="stylesheet" href="css/styles.css">
+			<link rel="stylesheet" href="css/header.css">
+		
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/agenda.css">
+    <link rel="stylesheet" href="css/form.css">
+
+	</head>
+	<body>
+		
+    <header>
+        <h1><a href="index.html" class='fas fa-angle-left' style='font-size:34px; margin-left:10px'></a></h1>
+        <h2 style='margin-right: 20px; margin-top: 5px;'>Agenda de Consultas</h2>
+    </header>
+
+		<div class="conteudo">
+			
+    <div class="main">
+        <div>
+            <h1>Agendar consulta</h1>
+            <br>
+            <form action="" class="formulario">
+                <label for="nome">Paciente:</label>
+                <select name="nome" id="nome" class="input">
+                    <option value="alicesilva">Alice Silva</option>
+                </select>
+                <label for="medico">Medico:</label>
+                <select name="medico" id="medico" class="input">
+                    <option value="bobalves">Bob Alves</option>
+                </select>
+                <label for="data">Data:</label>
+                <input type="datetime-local" name="data" id="data" class="input" value="2022-12-05T15:00">
+                <label for="procedimento">Procedimento:</label>
+                <select name="procedimento" id="procedimento" class="input">
+                    <option value="consulta">Consulta</option>
+                </select>
+                <input type="submit" value="Agendar" class="submit input">
+            </form>
+        </div>
+        <div>
+            <h1 style="text-align: center;">Agenda</h1>
+            <label for="busca">Buscar Paciente:</label>
+            <input type="search" name="busca" id="busca" value="Alice Silva">
+            <table class="styled-table">
+                <thead>
+                    <tr>
+                        <th>Nome Completo</th>
+                        <th>Medico</th>
+                        <th>Data</th>
+                        <th>Procedimento</th>
+                        <th>Atualizar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Alice Silva</td>
+                        <td>Bob Alves</td>
+                        <td>05/12/2022 - 15:00</td>
+                        <td>Consulta</td>
+                        <td class="refresh">↻</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+		</div>
+		
+
+
+	</body>
+</html>
